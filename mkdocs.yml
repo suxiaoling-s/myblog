@@ -1,5 +1,5 @@
 site_name: 技术博客
-site_description: 基于RadarLive-CN项目学习的技术总结
+site_description: 个人技术博客 - 记录项目开发、技术学习和开发经验
 site_author: Your Name
 site_url: https://suxiaoling-s.github.io/myblog
 
@@ -49,12 +49,15 @@ plugins:
 # 导航
 nav:
   - 首页: index.md
-  - 项目文档:
-    - 项目实战/项目结构总览.md
-    - 项目实战/后端架构详解.md
-    - 项目实战/前端架构详解.md
-    - 项目实战/API接口文档.md
-  - 学习总结: 学习总结/RadarLive-CN项目学习收获.md
+  - 项目:
+    - RadarLive-CN:
+      - 项目结构总览: 项目/RadarLive-CN/项目结构总览.md
+      - 后端架构详解: 项目/RadarLive-CN/后端架构详解.md
+      - 前端架构详解: 项目/RadarLive-CN/前端架构详解.md
+      - API接口文档: 项目/RadarLive-CN/API接口文档.md
+      - 学习收获: 项目/RadarLive-CN/学习收获.md
+  - 技术栈学习: 技术栈学习/index.md
+  - 开发经验: 开发经验/index.md
   - 关于: about.md
 
 # Markdown扩展
