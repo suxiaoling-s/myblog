@@ -1,6 +1,8 @@
-site_name: 技术博客
-site_description: 个人技术博客 - 记录项目开发、技术学习和开发经验
-site_author: Your Name
+site_name: 我的博客
+site_description: 个人博客 - 记录项目开发、技术学习
+site_author: suxiaoling-s
+注意：本地开发时如果希望直接访问 http://127.0.0.1:8000（不带路径），可以临时注释掉下面这行
+部署到 GitHub Pages 前需要取消注释
 site_url: https://suxiaoling-s.github.io/myblog
 
 # 仓库信息
@@ -43,8 +45,9 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
-  - minify:
-      minify_html: true
+  # 临时禁用 minify 插件，可能造成缓存问题
+  # - minify:
+  #     minify_html: true
 
 # 导航
 nav:
@@ -82,5 +85,5 @@ markdown_extensions:
       permalink: true
 
 # 版权信息
-copyright: Copyright &copy; 2024 Your Name
+copyright: Copyright &copy; 2025 suxiaoling
 
