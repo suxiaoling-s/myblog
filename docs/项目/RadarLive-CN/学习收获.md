@@ -71,7 +71,7 @@ export default {
 
 - 继续深入学习 FastAPI 的高级特性
 - 探索更多前端性能优化技巧
-- 学习 Kubernetes 进行更复杂的部署
+
 
 ---
 
