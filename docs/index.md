@@ -37,7 +37,7 @@ mkdocs serve
 
 ### 部署到 GitHub Pages
 
-详细步骤请查看 [部署指南](../部署指南.md)。
+博客已配置 GitHub Actions 自动部署，推送代码后会自动更新网站。
 
 ## 项目链接
 
