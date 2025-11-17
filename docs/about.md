@@ -1,20 +1,25 @@
 # 关于
 
-## 关于我
 
-我是一名全栈开发工程师，专注于 Web 开发和系统架构设计。
 
 ## 关于这个博客
 
-这个博客主要记录我在开发 RadarLive-CN 项目过程中的学习总结和技术思考。
+这个博客记录我在项目开发过程中的学习总结、技术思考和开发经验。包括：
+
+- 📚 **项目文档** - 各个项目的技术文档和架构设计
+- 📖 **学习总结** - 项目开发过程中的收获和心得
+- 💡 **技术栈学习** - 各种技术栈的学习笔记
+- 🛠️ **开发经验** - 开发过程中遇到的问题和解决方案
 
 ## 联系方式
 
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@suxiaoling-s](https://github.com/suxiaoling-s)
 - Email: your.email@example.com
 
-## 项目链接
 
-- [RadarLive-CN](https://github.com/yourusername/radarlive-cn) - 雷达实时展示系统
+
+---
+
+*持续更新中...*
 
 
