@@ -1,0 +1,83 @@
+site_name: 技术博客
+site_description: 基于RadarLive-CN项目学习的技术总结
+site_author: Your Name
+site_url: https://suxiaoling-s.github.io/myblog
+
+# 仓库信息
+repo_name: suxiaoling-s/myblog
+repo_url: https://github.com/suxiaoling-s/myblog
+edit_uri: edit/main/docs/
+
+# 主题配置
+theme:
+  name: material
+  palette:
+    # 浅色模式
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    # 深色模式
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+  language: zh
+
+# 插件
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - minify:
+      minify_html: true
+
+# 导航
+nav:
+  - 首页: index.md
+  - 项目文档:
+    - 项目实战/项目结构总览.md
+    - 项目实战/后端架构详解.md
+    - 项目实战/前端架构详解.md
+    - 项目实战/API接口文档.md
+  - 学习总结: 学习总结/RadarLive-CN项目学习收获.md
+  - 关于: about.md
+
+# Markdown扩展
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+# 版权信息
+copyright: Copyright &copy; 2024 Your Name
+
