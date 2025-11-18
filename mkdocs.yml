@@ -59,8 +59,18 @@ nav:
       - 前端架构详解: 项目/RadarLive-CN/前端架构详解.md
       - API接口文档: 项目/RadarLive-CN/API接口文档.md
       - 学习收获: 项目/RadarLive-CN/学习收获.md
-  - 技术栈学习: 技术栈学习/index.md
-  - 开发经验: 开发经验/index.md
+  - 技术栈学习:
+    - 技术栈学习: 技术栈学习/index.md
+    - Vue 3 组合式 API 深入理解: 技术栈学习/Vue3组合式API深入理解.md
+    - FastAPI 异步编程实践: 技术栈学习/FastAPI异步编程实践.md
+    - PostgreSQL 索引优化实战: 技术栈学习/PostgreSQL索引优化实战.md
+    - Docker 容器化部署指南: 技术栈学习/Docker容器化部署指南.md
+  - 开发经验:
+    - 开发经验: 开发经验/index.md
+    - 大量图片加载优化方案: 开发经验/大量图片加载优化方案.md
+    - Vue 3 状态同步最佳实践: 开发经验/Vue3状态同步最佳实践.md
+    - 防抖节流在前端开发中的应用: 开发经验/防抖节流在前端开发中的应用.md
+    - 跨域问题完整解决方案: 开发经验/跨域问题完整解决方案.md
   - 关于: about.md
 
 # Markdown扩展
